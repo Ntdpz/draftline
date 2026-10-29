@@ -1,0 +1,13 @@
+{
+  "name": "draftline-browser-checks",
+  "private": true,
+  "description": "Optional development checks; the PHP application has no build step.",
+  "scripts": {
+    "test": "node tests/run.cjs",
+    "test:functional": "node tests/functional.cjs",
+    "test:responsive": "node tests/responsive.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
